@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 
-const { PORT = 5001 } = process.env;
+const { PORT = "https://movies-website-1nwl.onrender.com/" } = process.env;
 
 const app = require('./app');
 const knex = require('./db/connection');
